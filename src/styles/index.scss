@@ -1,5 +1,137 @@
+// vim: ft=css
+
 body {
-  display: flex;
+  background: #211f20;
+  font-family: Inconsolata;
+  color: #dfdfdf;
+  text-align: center;
 }
 
-/* vim: ft=css */
+h1 {
+  color: #4dc667;
+  margin: 30px auto;
+  font-size: 60px;
+}
+
+h2 {
+  color: #6bbfe0;
+  margin: 40px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+  color: #dfdfdf;
+}
+
+#main_info {
+  width: 60vh;
+  margin: auto;
+
+  p {
+    display: inline;
+  }
+
+  .dc {
+    border-radius: 3px;
+    padding: 0 2;
+    background: rgba(128, 128, 128, 0.2);
+  }
+
+  .ev {
+    color: #7289da;
+    background: rgba(114,137,218,.1);
+  }
+
+  .lt {
+    text-decoration: line-through;
+  }
+
+  .pl::before, .pl::after {
+    content: ' ';
+    width: 12px; height: 5px;
+    display: inline-block;
+  }
+
+  .pl::before {
+    background: white;
+    margin-bottom: 5px;
+  }
+
+  .pl::after {
+    background: red;
+    margin-left: -12px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0; margin: 0;
+
+    li {padding: 2px}
+
+    .github, .github a { 
+      color: rgb(167, 165, 166);
+    }
+
+    .github a {
+      background: rgba(167, 165, 166, 0.1);
+    }
+
+    .gitlab, .gitlab a {
+      color: rgb(118, 76, 249); 
+    }
+
+    .gitlab a {
+      background: rgba(118, 76, 249, 0.1);
+    }
+
+    .reddit, .reddit a {
+      color: rgb(229, 88, 41);
+    }
+
+    .reddit a {
+      background: rgba(229, 88, 41, 0.1);
+    }
+
+    .aur, .aur a {
+      color: #7289da;
+    }
+
+    .aur a {
+      background: rgba(114, 137, 218, .1);
+    }
+
+    a:hover {
+      background: #7289da;
+      color: #dfdfdf;
+    }
+  }
+
+  .pgpkey {
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 10px 30px;
+    font-family: monospace;
+    overflow: auto;
+    height: 10rem;
+  }
+
+  .dl {
+    color: #4dc667;
+  }
+
+  .dl:hover {
+    cursor: pointer;
+    color: #8cde9e;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: gray;
+}
+
