@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build:scss": "node-sass --output-style compressed -o dist/styles src/styles",
-    "watch:scss": "onchange -i -v 'src/styles/*.scss' -- npm run build:sccs",
+    "watch:scss": "onchange -i -v 'src/styles/*.scss' -- npm run build:scss",
     "lint:js": "eslint --fix src/js/*.js",
     "watch:js": "onchange -i -v 'src/js/*js' -- npm run lint:js",
     "start": "browser-sync -s -f './index.html, dist/*, src/*'",
