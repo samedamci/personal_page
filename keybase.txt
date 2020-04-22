@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/samedamci
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samedamci.me
+  * I am samedamci (https://keybase.io/samedamci) on keybase.
+  * I have a public key ASBW84v490PG3vNCMIgH8lUZVpJddIcOI8EVIh8ZY9sdago
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a261038b8c3745776ea23b1c35bb05e14b306205fae8cd6cd0695a390ed11d5a0a",
+      "host": "keybase.io",
+      "kid": "012056f38bf8f743c6def342308807f2551956925d74870e23c115221f1963db1d6a0a",
+      "uid": "8ba0faa0dc309644a062f6a60b38e919",
+      "username": "samedamci"
+    },
+    "merkle_root": {
+      "ctime": 1587568072,
+      "hash": "dd8813d5e9b85c711ab66fdd30cb29f26ccc961b732e6a3f355a3c5fba153c6d8f32b95703e815b92e66b6a32b7a0b2476312015940ab7f80b455bf5d92c0064",
+      "hash_meta": "a007b665d6c231d32605cdf1ff9137bf1882847e16048130f4adac9881c85c15",
+      "seqno": 16013523
+    },
+    "service": {
+      "entropy": "6oOqHCGAHVBO90g4pHub/rrG",
+      "hostname": "samedamci.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587568176,
+  "expire_in": 504576000,
+  "prev": "d8288bb76de8e3d322e535d7da484ec5086ad27a97f78a9a24868c707df48ee6",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVvOL+PdDxt7zQjCIB/JVGVaSXXSHDiPBFSIfGWPbHWoKp3BheWxvYWTESpcCCMQg2CiLt23o49Mi5TXX2khOxQhq0nqX94qaJIaMcH30jubEIA8IKoFDu0v8bKgDSH8KiVJxLF0hdeT9TFcQu5SeO6XDAgHCo3NpZ8RA2tpQywwhUMHANlLTt0fAJLp22Q7ups2bPGKyuCCvgpIbgHgFn7pj412G94/uF6dpm/fZ/wx2c0hGzYoWWQqpD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBB7QegFh0XSusj7pwjrtnoz6wQ4ptwmwcdTygo3lltGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samedamci
+
+==================================================================
