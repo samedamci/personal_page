@@ -101,6 +101,14 @@ a {
       background: rgba(114, 137, 218, .1);
     }
 
+    .keybase, .keybase a {
+      color: rgb(255, 111, 33);
+    }
+
+    .keybase a {
+      background: rgba(255, 111, 33, 0.1);
+    }
+
     a:hover {
       background: #7289da;
       color: #dfdfdf;
