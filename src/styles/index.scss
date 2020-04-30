@@ -7,11 +7,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #4dc667;
-  margin: 25px auto;
-  font-size: 60px;
-}
 
 h2 {
   color: #6bbfe0;
@@ -20,8 +15,58 @@ h2 {
 
 a {
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
   color: #dfdfdf;
+}
+
+h1 {
+  color: #4dc667;
+  margin: 25px auto;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin: -10px auto 20px;
+  background: rgba(167, 165, 166, 0.1);
+  border-radius: 2px;
+  width: 400px;
+  text-align: center;
+  padding: 5px;
+
+  li {
+    padding: 0 8px;
+    display: inline;
+
+    a {color: #4dc667}
+
+    a:hover {
+      transition: 0.3s;
+      color: #8cde9e;
+    }
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  background: rgba(167, 165, 166, 0.03);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 10px;
+  font-size: 17px;
+
+  h2 {
+    margin: 0 0 5px;
+  }
+}
+
+h3 {
+  color: #f44336f0;
 }
 
 #main_info {
@@ -40,16 +85,18 @@ a {
 
   .ev {
     color: #7289da;
-    background: rgba(114,137,218,.1);
+    background: rgba(114, 137, 218, 0.1);
   }
 
   .lt {
     text-decoration: line-through;
   }
 
-  .pl::before, .pl::after {
-    content: ' ';
-    width: 12px; height: 5px;
+  .pl::before,
+  .pl::after {
+    content: " ";
+    width: 12px;
+    height: 5px;
     display: inline-block;
   }
 
@@ -64,12 +111,12 @@ a {
   }
 
   ul {
-    list-style: none;
-    padding: 0; margin: 0;
+    li {
+      padding: 2px;
+    }
 
-    li {padding: 2px}
-
-    .github, .github a { 
+    .github,
+    .github a {
       color: rgb(167, 165, 166);
     }
 
@@ -77,15 +124,17 @@ a {
       background: rgba(167, 165, 166, 0.1);
     }
 
-    .gitlab, .gitlab a {
-      color: rgb(118, 76, 249); 
+    .gitlab,
+    .gitlab a {
+      color: rgb(118, 76, 249);
     }
 
     .gitlab a {
       background: rgba(118, 76, 249, 0.1);
     }
 
-    .reddit, .reddit a {
+    .reddit,
+    .reddit a {
       color: rgb(229, 88, 41);
     }
 
@@ -93,12 +142,13 @@ a {
       background: rgba(229, 88, 41, 0.1);
     }
 
-    .aur, .aur a {
+    .aur,
+    .aur a {
       color: #7289da;
     }
 
     .aur a {
-      background: rgba(114, 137, 218, .1);
+      background: rgba(114, 137, 218, 0.1);
     }
 
     .keybase a {
@@ -128,12 +178,24 @@ a {
 
   .dl {
     color: #4dc667;
+    display: block;
+    margin-bottom: 10px;
   }
 
   .dl:hover {
     cursor: pointer;
     color: #8cde9e;
   }
+}
+
+img {
+  margin-top: 30px;
+}
+
+.btw {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 5px;
 }
 
 ::-webkit-scrollbar {
@@ -147,6 +209,6 @@ a {
 
 @media only screen and (max-width: 600px) {
   #main_info {
-    width: 90vw; 
+    width: 90vw;
   }
 }
