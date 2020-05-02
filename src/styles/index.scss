@@ -7,7 +7,6 @@ body {
   text-align: center;
 }
 
-
 h2 {
   color: #6bbfe0;
   margin: 25px 0 20px;
@@ -25,7 +24,9 @@ h1 {
   font-size: 60px;
   letter-spacing: 2px;
 
-  a {color: #4dc667}
+  a {
+    color: #4dc667;
+  }
 }
 
 nav {
@@ -40,7 +41,9 @@ nav {
     padding: 0 8px;
     display: inline;
 
-    a {color: #4dc667}
+    a {
+      color: #4dc667;
+    }
 
     a:hover {
       transition: 0.3s;
@@ -224,4 +227,13 @@ img {
   nav {
     width: 90vw;
   }
+}
+
+/* browser rules */
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
 }
