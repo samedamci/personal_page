@@ -229,6 +229,12 @@ img {
   }
 }
 
+@media only screen and (max-width: 315px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
 /* browser rules */
 :focus {
   outline: none;
